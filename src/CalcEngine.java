@@ -339,6 +339,10 @@ public class CalcEngine
 				numberString = "|";
 			}
 		}
+		if (numberString.length()!=1){
+			numberString+=delimiter;
+			delimitedString+=numberString;
+		}
 
 		if (DEBUG)System.out.println(delimitedString);
 		return delimitedString;
