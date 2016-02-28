@@ -132,6 +132,8 @@ public class UserInterface implements ActionListener
 			calc.divide();
 		else if(command.equals("^"))
 			calc.toThePowerOf();
+		else if(command.equals("."))
+			calc.decimalPoint();
 		else if(command.equals("("))
 			calc.openingBracket();
 		else if(command.equals(")"))
